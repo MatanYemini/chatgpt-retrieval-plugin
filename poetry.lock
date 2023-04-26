@@ -1254,7 +1254,7 @@ marshmallow = ">=2.0.0"
 
 [[package]]
 name = "mmh3"
-version = "3.0.0"
+version = "3.1.0"
 description = "Python wrapper for MurmurHash (MurmurHash3), a set of fast and robust hash functions."
 category = "main"
 optional = false
@@ -1816,7 +1816,7 @@ files = [
 [package.dependencies]
 grpcio = ">=1.47.0,<=1.48.0"
 grpcio-tools = ">=1.47.0,<=1.48.0"
-mmh3 = ">=2.0,<=3.0.0"
+mmh3 = ">=2.0,<=3.1.0"
 pandas = {version = ">=1.2.4", markers = "python_version > \"3.6\""}
 ujson = ">=2.0.0,<=5.4.0"
 
